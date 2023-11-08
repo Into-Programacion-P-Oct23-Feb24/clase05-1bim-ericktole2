@@ -28,6 +28,11 @@ public class Ejemplo2 {
             System.out.printf("Estudiante aprobado con un "
                     + "promedio: %.2f\n", promedio);
         } // -------------
+        if (promedio >=11){
+            System.out.printf("El formano es erroneo porfavo ingresar un"
+                    + "numero menor que 10 y mayor que 0");
+        }
+            
     }
 
 }
